@@ -1,0 +1,293 @@
+{
+	"Levels": [
+		{
+			"Index": 0,
+			"Waves": [
+				{
+					"Index": 0,
+					"NextWaveWait": 2.0,
+					"Enemies": [
+						{
+							"EnemyId": 0,
+							"OffTime": 0.5,
+							"Speed": 5.0,
+							"Health": 1,
+							"MonetaryValue": 10
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 1.0,
+							"Speed": 5.0,
+							"Health": 1,
+							"MonetaryValue": 10
+						},
+						{
+							"EnemyId": 0,
+							"OffTime": 1.5,
+							"Speed": 5.0,
+							"Health": 1,
+							"MonetaryValue": 10
+						},
+						{
+							"EnemyId": 0,
+							"OffTime": 2.0,
+							"Speed": 5.0,
+							"Health": 1,
+							"MonetaryValue": 10
+						},
+						{
+							"EnemyId": 0,
+							"OffTime": 2.5,
+							"Speed": 5.0,
+							"Health": 1,
+							"MonetaryValue": 10
+						}
+					]
+				},
+				{
+					"Index": 1,
+					"NextWaveWait": 3.0,
+					"Enemies": [
+						{
+							"EnemyId": 1,
+							"OffTime": 0.5,
+							"Speed": 5.0,
+							"Health": 2,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 1.0,
+							"Speed": 5.0,
+							"Health": 2,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 1.5,
+							"Speed": 5.0,
+							"Health": 2,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 2.0,
+							"Speed": 5.0,
+							"Health": 2,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 2.5,
+							"Speed": 5.0,
+							"Health": 2,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 3.0,
+							"Speed": 5.0,
+							"Health": 2,
+							"MonetaryValue": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"Index": 0,
+			"Waves": [
+				{
+					"Index": 0,
+					"Enemies": [
+						{
+							"EnemyId": 0,
+							"OffTime": 0.5,
+							"Speed": 2.5,
+							"Health": 10,
+							"MonetaryValue": 10
+						},
+						{
+							"EnemyId": 0,
+							"OffTime": 1.5,
+							"Speed": 2.5,
+							"Health": 10,
+							"MonetaryValue": 10
+						},
+						{
+							"EnemyId": 0,
+							"OffTime": 2.5,
+							"Speed": 2.5,
+							"Health": 10,
+							"MonetaryValue": 10
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 3.5,
+							"Speed": 2.5,
+							"Health": 10,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 4.5,
+							"Speed": 2.5,
+							"Health": 10,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 5.5,
+							"Speed": 2.5,
+							"Health": 10,
+							"MonetaryValue": 20
+						}
+					]
+				},
+				{
+					"Index": 1,
+					"Enemies": [
+						{
+							"EnemyId": 1,
+							"OffTime": 0.5,
+							"Speed": 3.0,
+							"Health": 2,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 1.5,
+							"Speed": 3.0,
+							"Health": 2,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 1,
+							"OffTime": 2.5,
+							"Speed": 3.0,
+							"Health": 2,
+							"MonetaryValue": 20
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 3.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 4.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 5.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						}
+					]
+				},
+				{
+					"Index": 2,
+					"Enemies": [
+						{
+							"EnemyId": 2,
+							"OffTime": 0.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 1.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 2.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 3.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 4.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 5.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						}
+					]
+				},
+				{
+					"Index": 3,
+					"Enemies": [
+						{
+							"EnemyId": 2,
+							"OffTime": 0.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 1.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 2,
+							"OffTime": 2.5,
+							"Speed": 3.0,
+							"Health": 3,
+							"MonetaryValue": 30
+						},
+						{
+							"EnemyId": 3,
+							"OffTime": 3.5,
+							"Speed": 3.0,
+							"Health": 4,
+							"MonetaryValue": 40
+						},
+						{
+							"EnemyId": 3,
+							"OffTime": 4.5,
+							"Speed": 3.0,
+							"Health": 4,
+							"MonetaryValue": 40
+						},
+						{
+							"EnemyId": 3,
+							"OffTime": 5.5,
+							"Speed": 3.0,
+							"Health": 4,
+							"MonetaryValue": 40
+						}
+					]
+				}
+			]
+		}
+	]
+}
+
+
