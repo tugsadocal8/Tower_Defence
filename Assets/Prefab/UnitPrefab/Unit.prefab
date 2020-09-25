@@ -108,13 +108,13 @@ MonoBehaviour:
     timer: 0.5
   - unitType: 0
     unitFrequency: 0.1
-    maxRangeUnit: 3
+    maxRangeUnit: 5
     unitDamage: 1
     minExperienceForUpgrade: 5
     timer: 0.1
   - unitType: 0
     unitFrequency: 0.5
-    maxRangeUnit: 3
+    maxRangeUnit: 5
     unitDamage: 1
     minExperienceForUpgrade: -1
     timer: 0.5

@@ -29,7 +29,7 @@ public class WalkingOrc : MonoBehaviour
     {
         setCharacter();
         dead = false;
-        this.transform.position = new Vector3(0, 0, 15.8f);
+        this.transform.position = new Vector3(0, 0, -15.8f);
     }
 
     void FixedUpdate()

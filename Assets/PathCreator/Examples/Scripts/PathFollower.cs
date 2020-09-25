@@ -13,6 +13,7 @@ namespace PathCreation.Examples
         public float health;
         public Image healthBar;
         public float monetaryValue;
+        public GameObject tower;
         void Start()
         {
             if (pathCreator != null)
@@ -31,9 +32,8 @@ namespace PathCreation.Examples
                     distanceTravelled += speed * Time.deltaTime;
                     transform.position = GetTargetLocation(Time.deltaTime);
                     transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction);
-                    if (transform.position.x > 23.0f || health <= 0)
+                    if (transform.position.x > tower.transform.position.x || health <= 0)
                     {
-
                         Destroy(this.gameObject);
                         GameManager.Instance.EarnMoney(monetaryValue);
                         GameManager.Instance.RemoveEnemyList(this.gameObject);

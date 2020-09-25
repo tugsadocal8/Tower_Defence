@@ -19,8 +19,6 @@ public class UnitCanvas : MonoBehaviour
             if (Physics.Raycast(ray, out rayHit, 500.0f))
             {
 
-                Debug.Log(rayHit.collider.gameObject.layer);
-
                 if (rayHit.collider.gameObject.tag == "Unit")
                 {
                     Debug.Log(rayHit.collider.gameObject);

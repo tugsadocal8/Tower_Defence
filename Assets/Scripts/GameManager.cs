@@ -1,4 +1,5 @@
-﻿using PathCreation.Examples;
+﻿using PathCreation;
+using PathCreation.Examples;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -39,10 +40,13 @@ public class GameManager : MonoBehaviour
     public List<DwarfData> DwarfDataList;
     public UnitManager activeUnitManager;
     public UnitCanvas unitCanvas;
+    public LayerMask layerMask;
 
     public LevelManager levelManager;
     public GameObject bullet;
+    public PathCreator creator;
 
+    public GameObject tower;
     public GameObject bestTarget;
 
     public int activeLevel;
@@ -66,12 +70,16 @@ public class GameManager : MonoBehaviour
     }
     public void SpawnEnemy(EnemyEnum enemyEnum, float enemyOffTime, float speed, float health, float monetaryValue)
     {
+        
+
         for (int i = 0; i < EnemyPrefabDataList.Count; i++)
         {
             if (EnemyPrefabDataList[i].type == enemyEnum)
             {
                 GameObject clone = Instantiate(EnemyPrefabDataList[i].prefab);
                 PathFollower pathFollower = clone.GetComponent<PathFollower>();
+                pathFollower.pathCreator = creator;
+                pathFollower.tower = tower;
                 pathFollower.timer = enemyOffTime;
                 pathFollower.speed = speed;
                 pathFollower.health = health;

@@ -157,6 +157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MachineGun_3
       objectReference: {fileID: 0}
+    - target: {fileID: 167678, guid: cc10a3908cedf9840b76ca36c0f2dfdc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 401788, guid: cc10a3908cedf9840b76ca36c0f2dfdc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -231,7 +235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2395214, guid: cc10a3908cedf9840b76ca36c0f2dfdc, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2395214, guid: cc10a3908cedf9840b76ca36c0f2dfdc, type: 3}
       propertyPath: m_ReceiveShadows
@@ -286,6 +290,10 @@ PrefabInstance:
     - target: {fileID: 185348, guid: 6a0edc00326040f4eb6a58a46d6c9280, type: 3}
       propertyPath: m_Name
       value: MachineGun_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 185348, guid: 6a0edc00326040f4eb6a58a46d6c9280, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 491180, guid: 6a0edc00326040f4eb6a58a46d6c9280, type: 3}
       propertyPath: m_LocalPosition.x
@@ -425,6 +433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MachineGun_2
       objectReference: {fileID: 0}
+    - target: {fileID: 189522, guid: d35ca30e09fb93f4aa8d2d12574ec0cb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 436486, guid: d35ca30e09fb93f4aa8d2d12574ec0cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -471,7 +483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2331316, guid: d35ca30e09fb93f4aa8d2d12574ec0cb, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2331316, guid: d35ca30e09fb93f4aa8d2d12574ec0cb, type: 3}
       propertyPath: m_ReceiveShadows
