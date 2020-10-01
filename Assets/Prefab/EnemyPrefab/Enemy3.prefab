@@ -363,7 +363,9 @@ MonoBehaviour:
     type: 3}
   endOfPathInstruction: 0
   speed: 0
+  distanceTravelled: 0
   timer: 0
   health: 3
   healthBar: {fileID: 1935080220964365164}
   monetaryValue: 0
+  tower: {fileID: 0}

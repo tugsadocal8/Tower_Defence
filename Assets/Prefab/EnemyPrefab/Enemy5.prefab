@@ -188,10 +188,12 @@ MonoBehaviour:
     type: 3}
   endOfPathInstruction: 0
   speed: 0
+  distanceTravelled: 0
   timer: 0
   health: 5
   healthBar: {fileID: 8357654302521213754}
   monetaryValue: 0
+  tower: {fileID: 0}
 --- !u!1 &7453716302696592480
 GameObject:
   m_ObjectHideFlags: 0

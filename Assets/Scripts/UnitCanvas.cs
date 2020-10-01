@@ -16,12 +16,12 @@ public class UnitCanvas : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            
             if (Physics.Raycast(ray, out rayHit, 500.0f))
             {
 
                 if (rayHit.collider.gameObject.tag == "Unit")
                 {
-                    Debug.Log(rayHit.collider.gameObject);
                     GameManager.Instance.OnUnitClick(rayHit.collider.gameObject.GetComponent<UnitManager>());
                 }
 
