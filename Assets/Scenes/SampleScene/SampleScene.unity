@@ -1497,8 +1497,12 @@ MonoBehaviour:
     damage: 20
   activeUnitManager: {fileID: 0}
   unitCanvas: {fileID: 1883036490}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   bullet: {fileID: 3517146942554956711, guid: f58a8439e1f9a954094c40dd58cc1d73, type: 3}
   creator: {fileID: 2042528657}
+  tower: {fileID: 1735606703}
   bestTarget: {fileID: 0}
   activeLevel: 0
   activeWave: 0
@@ -3017,7 +3021,6 @@ MonoBehaviour:
   rectTransform: {fileID: 2092694427}
   canvasGroup: {fileID: 753238661}
   itemPosition: {x: 0, y: 0, z: 0}
-  pathCreator: {fileID: 2042528657}
   unitTypeId: 2
   unitRange: 7
   circle: {fileID: 297979823}
@@ -5420,7 +5423,6 @@ MonoBehaviour:
   rectTransform: {fileID: 1563183267}
   canvasGroup: {fileID: 1460844541}
   itemPosition: {x: 0, y: 0, z: 0}
-  pathCreator: {fileID: 2042528657}
   unitTypeId: 3
   unitRange: 9
   circle: {fileID: 2029232761}
@@ -5739,10 +5741,15 @@ MonoBehaviour:
   rectTransform: {fileID: 158022862}
   canvasGroup: {fileID: 1729446092}
   itemPosition: {x: 0, y: 0, z: 0}
-  pathCreator: {fileID: 2042528657}
   unitTypeId: 4
   unitRange: 11
   circle: {fileID: 1445357805}
+--- !u!1 &1735606703 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2096407903236624012, guid: f0f66296a43d4974b909849e93a0e515,
+    type: 3}
+  m_PrefabInstance: {fileID: 2096407901811396520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1749675489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3438981065136009785, guid: 2c9a026ad0d26804bb7e3cbb2e9d7412,
@@ -7022,7 +7029,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 4b710747ea2e06048951173e705b6748, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 30d88c207036dcc49af4a3a9ff98e192, type: 2}
 --- !u!4 &2100243633
 Transform:
   m_ObjectHideFlags: 0

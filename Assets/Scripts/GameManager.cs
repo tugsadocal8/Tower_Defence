@@ -40,7 +40,6 @@ public class GameManager : MonoBehaviour
     public List<DwarfData> DwarfDataList;
     public UnitManager activeUnitManager;
     public UnitCanvas unitCanvas;
-    public LayerMask layerMask;
 
     public LevelManager levelManager;
     public GameObject bullet;

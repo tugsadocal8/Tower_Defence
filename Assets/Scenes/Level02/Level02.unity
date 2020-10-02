@@ -3462,9 +3462,6 @@ MonoBehaviour:
     damage: 20
   activeUnitManager: {fileID: 0}
   unitCanvas: {fileID: 50808528}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 0
   bullet: {fileID: 3517146942554956711, guid: f58a8439e1f9a954094c40dd58cc1d73, type: 3}
   creator: {fileID: 1358740485}
   tower: {fileID: 1245652694}
@@ -5208,7 +5205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042019234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.73, y: 0, z: 0}
+  m_LocalPosition: {x: -16.25, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 964921301}
@@ -5633,7 +5630,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1247604985
 GameObject:
@@ -7113,7 +7110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516353842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33.99, y: 0, z: 0}
+  m_LocalPosition: {x: -16.12, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1333653208}
@@ -7424,12 +7421,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741066314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.56, y: 0, z: 0}
+  m_LocalPosition: {x: -16.36, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1047258421}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1743156035
 GameObject:
@@ -8703,7 +8700,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 191eb6046434b134685f589e6f5bdd15, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 3a3edf5c9c5c0ac43baa2fd08e1cd081, type: 2}
 --- !u!4 &2070018117
 Transform:
   m_ObjectHideFlags: 0
