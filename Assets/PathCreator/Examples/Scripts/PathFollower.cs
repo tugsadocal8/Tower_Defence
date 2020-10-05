@@ -32,7 +32,8 @@ namespace PathCreation.Examples
                     distanceTravelled += speed * Time.deltaTime;
                     transform.position = GetTargetLocation(Time.deltaTime);
                     transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction);
-                    if (transform.position.x > tower.transform.position.x || health <= 0)
+                    //transform.position.x > tower.transform.position.x
+                    if (health <= 0)
                     {
                         Destroy(this.gameObject);
                         GameManager.Instance.EarnMoney(monetaryValue);

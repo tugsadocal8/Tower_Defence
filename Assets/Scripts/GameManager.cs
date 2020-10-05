@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     public LevelManager levelManager;
     public GameObject bullet;
     public PathCreator creator;
-
+    public PathCreator creatorSecond;
     public GameObject tower;
     public GameObject bestTarget;
 
@@ -78,12 +78,27 @@ public class GameManager : MonoBehaviour
                 GameObject clone = Instantiate(EnemyPrefabDataList[i].prefab);
                 PathFollower pathFollower = clone.GetComponent<PathFollower>();
                 pathFollower.pathCreator = creator;
+
                 pathFollower.tower = tower;
                 pathFollower.timer = enemyOffTime;
                 pathFollower.speed = speed;
                 pathFollower.health = health;
                 pathFollower.monetaryValue = monetaryValue;
                 AddEnemyList(clone);
+
+                if (creatorSecond != null)
+                {
+                    GameObject secondPathClone = Instantiate(EnemyPrefabDataList[i].prefab);
+                    PathFollower secondPathFollower2 = secondPathClone.GetComponent<PathFollower>();
+                    secondPathFollower2.pathCreator = creatorSecond;
+                    secondPathFollower2.tower = tower;
+                    secondPathFollower2.timer = enemyOffTime;
+                    secondPathFollower2.speed = speed;
+                    secondPathFollower2.health = health;
+                    secondPathFollower2.monetaryValue = monetaryValue;
+                    AddEnemyList(secondPathClone);
+                }
+                
             }
         }
     }

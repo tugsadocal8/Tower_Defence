@@ -13,6 +13,7 @@ public class LevelManager
     public LevelData LevelData;
     public int CurrentLevelIndex;
     public int CurrentWaveIndex;
+
     public void CreateWave()
     {
 
