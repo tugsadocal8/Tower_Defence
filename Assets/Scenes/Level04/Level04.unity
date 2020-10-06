@@ -6780,12 +6780,12 @@ PrefabInstance:
     - target: {fileID: 8562569305465619566, guid: 0107cabf8cb155a4a97b9fde1ca43252,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.48
+      value: 14.39
       objectReference: {fileID: 0}
     - target: {fileID: 8562569305465619566, guid: 0107cabf8cb155a4a97b9fde1ca43252,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.2799997
+      value: -7.18
       objectReference: {fileID: 0}
     - target: {fileID: 8562569305465619566, guid: 0107cabf8cb155a4a97b9fde1ca43252,
         type: 3}
@@ -8189,6 +8189,7 @@ MonoBehaviour:
   unitCanvas: {fileID: 379405510}
   bullet: {fileID: 3517146942554956711, guid: f58a8439e1f9a954094c40dd58cc1d73, type: 3}
   creator: {fileID: 1489897155}
+  creatorSecond: {fileID: 0}
   tower: {fileID: 1439983606}
   bestTarget: {fileID: 0}
   activeLevel: 0
