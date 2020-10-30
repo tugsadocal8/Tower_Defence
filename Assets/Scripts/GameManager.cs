@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
     public GameObject bullet;
     public PathCreator creator;
     public PathCreator creatorSecond;
+    public PathCreator creatorThird;
     public GameObject tower;
     public GameObject bestTarget;
 
@@ -97,8 +98,21 @@ public class GameManager : MonoBehaviour
                     secondPathFollower2.health = health;
                     secondPathFollower2.monetaryValue = monetaryValue;
                     AddEnemyList(secondPathClone);
+
                 }
-                
+
+                if (creatorThird != null)
+                {
+                    GameObject thirdPathClone = Instantiate(EnemyPrefabDataList[i].prefab);
+                    PathFollower thirdPathFollower3 = thirdPathClone.GetComponent<PathFollower>();
+                    thirdPathFollower3.pathCreator = creatorThird;
+                    thirdPathFollower3.tower = tower;
+                    thirdPathFollower3.timer = enemyOffTime;
+                    thirdPathFollower3.speed = speed;
+                    thirdPathFollower3.health = health;
+                    thirdPathFollower3.monetaryValue = monetaryValue;
+                    AddEnemyList(thirdPathClone);
+                }
             }
         }
     }
