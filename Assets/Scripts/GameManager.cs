@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
     public PathCreator creatorThird;
     public GameObject tower;
     public GameObject bestTarget;
-
+    
     public int activeLevel;
     public int activeWave;
     public float money = 20;
@@ -76,7 +76,9 @@ public class GameManager : MonoBehaviour
         {
             if (EnemyPrefabDataList[i].type == enemyEnum)
             {
-                GameObject clone = Instantiate(EnemyPrefabDataList[i].prefab);
+
+                //GameObject clone = Instantiate(EnemyPrefabDataList[i].prefab);
+                GameObject clone = Instantiate(Resources.Load("Enemies/" + EnemyPrefabDataList[i].prefab.name, typeof(GameObject))) as GameObject;
                 PathFollower pathFollower = clone.GetComponent<PathFollower>();
                 pathFollower.pathCreator = creator;
 
