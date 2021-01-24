@@ -5098,7 +5098,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439983606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.07, y: 0.97, z: -9.01}
+  m_LocalPosition: {x: -22.28, y: 0.97, z: 1.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8195,6 +8195,7 @@ MonoBehaviour:
   bullet: {fileID: 3517146942554956711, guid: f58a8439e1f9a954094c40dd58cc1d73, type: 3}
   creator: {fileID: 1489897155}
   creatorSecond: {fileID: 0}
+  creatorThird: {fileID: 0}
   tower: {fileID: 1439983606}
   bestTarget: {fileID: 0}
   activeLevel: 0

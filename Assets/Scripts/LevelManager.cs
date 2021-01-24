@@ -19,6 +19,7 @@ public class LevelManager
 
         for (int i = 0; i < LevelData.Levels[CurrentLevelIndex].Waves[CurrentWaveIndex].Enemies.Count; i++)
         {
+            
             enemyEnum = (EnemyEnum)LevelData.Levels[CurrentLevelIndex].Waves[CurrentWaveIndex].Enemies[i].EnemyId;
             enemyOffTime = LevelData.Levels[CurrentLevelIndex].Waves[CurrentWaveIndex].Enemies[i].Offtime;
             speed = LevelData.Levels[CurrentLevelIndex].Waves[CurrentWaveIndex].Enemies[i].Speed;
@@ -31,8 +32,10 @@ public class LevelManager
 
     public void LoadLevelData()
     {
-        string json = File.ReadAllText(Application.dataPath + "/Data/LevelData.json");
-        LevelData = JsonConvert.DeserializeObject<LevelData>(json);
+        //string json = File.ReadAllText(Application.dataPath + "/Data/LevelData.json");
+        var json = Resources.Load<TextAsset>("Data/LevelData");
+        LevelData = JsonConvert.DeserializeObject<LevelData>(json.ToString());
+        
     }
 
 

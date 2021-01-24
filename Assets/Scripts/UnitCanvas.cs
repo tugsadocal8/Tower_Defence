@@ -76,4 +76,10 @@ public class UnitCanvas : MonoBehaviour
         GameManager.Instance.activeUnitManager.UnitSelling();
         Content.SetActive(false);
     }
+
+    //public void StartWave()
+    //{
+    //    GameManager.Instance.CreateWave();
+        
+    //}
 }

@@ -3,7 +3,7 @@ using PathCreation.Examples;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+using System.IO;
 using UnityEngine.UI;
 
 [Serializable]
@@ -48,7 +48,6 @@ public class GameManager : MonoBehaviour
     public PathCreator creatorThird;
     public GameObject tower;
     public GameObject bestTarget;
-    
     public int activeLevel;
     public int activeWave;
     public float money = 20;
@@ -76,8 +75,16 @@ public class GameManager : MonoBehaviour
         {
             if (EnemyPrefabDataList[i].type == enemyEnum)
             {
+                //var myLoadedAssetBundle = AssetBundle.LoadFromFile(Path.Combine(Application.streamingAssetsPath, "enemies"));
+                //if (myLoadedAssetBundle == null)
+                //{
+                //    Debug.Log("Failed to load AssetBundle!");
+                //    return;
+                //}
+                //GameObject clone = Instantiate(myLoadedAssetBundle.LoadAsset<GameObject>("Enemy"));
 
-                //GameObject clone = Instantiate(EnemyPrefabDataList[i].prefab);
+                //myLoadedAssetBundle.Unload(false);
+
                 GameObject clone = Instantiate(Resources.Load("Enemies/" + EnemyPrefabDataList[i].prefab.name, typeof(GameObject))) as GameObject;
                 PathFollower pathFollower = clone.GetComponent<PathFollower>();
                 pathFollower.pathCreator = creator;
@@ -169,6 +176,11 @@ public class GameManager : MonoBehaviour
         levelManager.SetWave(activeWave);
         levelManager.CreateWave();
     }
+    //public void CreateWave()
+    //{
+    //    Debug.Log("a");
+    //    levelManager.CreateWave();
+    //}
     public void CreateUnit(UnitEnum unitType, Vector3 unitPosition)
     {
 
